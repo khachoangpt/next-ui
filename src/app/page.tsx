@@ -1,9 +1,14 @@
-import { Button } from '@/components/button'
+import { Breadcrumbs } from '@/components/breadcrumbs'
 
 export default function Home() {
   return (
     <main>
-      <Button color="primary">Button</Button>
+      <Breadcrumbs
+        breadcrumbItems={[
+          { value: 'Home', id: 'home' },
+          { value: 'Music', id: 'music' },
+        ]}
+      />
     </main>
   )
 }
