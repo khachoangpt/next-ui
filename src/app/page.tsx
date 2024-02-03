@@ -1,12 +1,17 @@
-import { Button } from '@/components/button'
-import { Dropdown } from '@/components/dropdown'
+import NextImage from 'next/image'
+
+import { Image } from '@/components/image/Image'
 
 export default function Home() {
   return (
     <main>
-      <Dropdown dropdownItems={[{ title: 'Test', value: 'test' }]}>
-        <Button variant="bordered">Open Menu</Button>
-      </Dropdown>
+      <Image
+        as={NextImage}
+        width={300}
+        height={200}
+        src="https://nextui-docs-v2.vercel.app/images/hero-card-complete.jpeg"
+        alt="NextUI hero Image"
+      />
     </main>
   )
 }
