@@ -1,9 +1,9 @@
-import { CircularProgress } from '@/components/circular-progress'
+import { Code } from '@/components/code'
 
 export default function Home() {
   return (
     <main>
-      <CircularProgress aria-label="Loading..." />
+      <Code>npm install @nextui-org/react</Code>
     </main>
   )
 }
