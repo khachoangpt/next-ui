@@ -1,9 +1,9 @@
-import Card from '@/components/card/Card'
+import { Checkbox } from '@/components/checkbox'
 
 export default function Home() {
   return (
     <main>
-      <Card>Test vjfdnvj vjnfdknv</Card>
+      <Checkbox defaultSelected>Option</Checkbox>
     </main>
   )
 }
