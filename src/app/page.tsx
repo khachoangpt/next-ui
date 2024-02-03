@@ -1,9 +1,9 @@
-import { Chip } from '@/components/chip/Chip'
+import { CircularProgress } from '@/components/circular-progress'
 
 export default function Home() {
   return (
     <main>
-      <Chip>Chip</Chip>
+      <CircularProgress aria-label="Loading..." />
     </main>
   )
 }
