@@ -1,14 +1,9 @@
-import { Breadcrumbs } from '@/components/breadcrumbs'
+import Card from '@/components/card/Card'
 
 export default function Home() {
   return (
     <main>
-      <Breadcrumbs
-        breadcrumbItems={[
-          { value: 'Home', id: 'home' },
-          { value: 'Music', id: 'music' },
-        ]}
-      />
+      <Card>Test vjfdnvj vjnfdknv</Card>
     </main>
   )
 }
