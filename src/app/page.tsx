@@ -1,9 +1,9 @@
-import { Kbd } from '@/components/kbd'
+import { Pagination } from '@/components/pagination'
 
 export default function Home() {
   return (
     <main>
-      <Kbd keys={['command']}>K</Kbd>
+      <Pagination radius="full" total={10} initialPage={1} />
     </main>
   )
 }
