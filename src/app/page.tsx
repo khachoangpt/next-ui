@@ -1,14 +1,9 @@
-import { Input } from '@/components/input'
+import { Kbd } from '@/components/kbd'
 
 export default function Home() {
   return (
     <main>
-      <Input
-        type="password"
-        label="Email"
-        labelPlacement="outside"
-        placeholder="Email"
-      />
+      <Kbd keys={['command']}>K</Kbd>
     </main>
   )
 }
